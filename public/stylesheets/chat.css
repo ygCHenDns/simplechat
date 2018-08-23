@@ -1,0 +1,94 @@
+.container{
+    width: 100%;
+    height: 100%;
+    background: white;
+    display: flex;
+}
+.user-container{
+    width: 30%;
+    /* background: yellow; */
+    margin: 20px;
+    border: solid 2px;
+    overflow: auto;
+}
+.chat-container{
+    width: 70%;
+    /* background: green; */
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    border: solid 2px;
+}
+.chat-history-container{
+    height: 100%;
+    /* background: red; */
+    margin: 10px;
+    border: solid 2px;
+    border-color: grey;
+    overflow: auto;
+}
+.chat-message{
+    height: 100px;
+    /* background: blue; */
+    margin: 10px;
+    /* border: solid 2px; */
+    border-color: grey;
+}
+.chat-box{
+    height: 50px;
+    border: solid 1px;
+    border-color: grey;
+}
+.head{
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+    border: 1px;
+}
+.nickname{
+    padding-left: 10px;
+}
+.response-message{
+    width: 100%;
+    display: flex;
+}
+.send-message{
+    width: 100%;
+    float: right;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.message-bubble{
+    width:auto;
+    max-width: 400px;
+    display: inline-block;
+    border: solid 2px;
+    margin: 5px;
+    background: #cce5ff;
+    border-color: #b8daff;
+    border-radius: 10px;
+}
+.message{
+    margin: 5px;
+}
+
+.wordwrap { 
+    white-space: pre-wrap;      /* CSS3 */   
+    white-space: -moz-pre-wrap; /* Firefox */    
+    white-space: -pre-wrap;     /* Opera <7 */   
+    white-space: -o-pre-wrap;   /* Opera 7 */    
+    word-wrap: break-word;      /* IE */
+ }
+
+ input.file{
+     display: none;
+ }
+
+ .upload-btn{
+
+ }
+
+ .messagebox{
+     overflow: auto;
+     height: 100px;
+ }

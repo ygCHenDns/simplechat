@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css" />
+
+    <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/bower_components/socket.io-client/dist/socket.io.js"></script>
+    <script src="/bower_components/js-cookie/src/js.cookie.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="user-container">
+            <ul class="list-group list-group-flush" id="userlist">
+            </ul>
+        </div>
+        <div class="chat-container">
+            <div class="chat-history-container">
+            </div>
+            <div class="chat-message">
+                <form>
+                    <div class="form-group">
+                        <label for="file" class="btn btn-primary btn-sm">
+                            Picture
+                            <input type="file" id="file" class="file" />
+                        </label>
+                        <!-- <textarea rows="2" class="form-control" id="messagebox" style="overflow:auto" placeholder="Enter message"></textarea> -->
+                        <div class="form-control messagebox" id="messagebox" contenteditable="true"></div>
+                        <button type="button" id="enter" class="btn btn-primary btn-sm float-right" style="margin-top:5px;">Enter</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    <link rel="stylesheet" href="/stylesheets/chat.css" />
+    <script src="/javascripts/chat.js"></script>
+</footer>
+
+</html>

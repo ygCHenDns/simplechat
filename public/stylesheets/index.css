@@ -1,0 +1,24 @@
+.conatiner{
+    height: 90%;
+    margin: 20px;
+}
+.login-box{
+    height: 300px;
+    width: 350px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    border: solid 1px;
+    z-index: 5px;
+    border-color: grey;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgb(223, 195, 195);
+    float: right;
+    margin: 100px;
+}
+.input{
+    margin-bottom: 10px;
+}
+.login{
+    margin-top: 50px;
+}
